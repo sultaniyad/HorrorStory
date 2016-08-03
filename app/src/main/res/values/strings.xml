@@ -2,4 +2,17 @@
     <string name="app_name">HorrorStory</string>
 
     <string name="banner_ad_unit_id">ca-app-pub-2100187188382709/8009399871</string>
+
+
+
+<array name="stories">
+    <item>قرعب</item>
+    <item> افلام الرعب</item>
+    <item> حلقة الوصل العالمية</item>
+    <item>الرحب العالمية الولى</item>
+    <item> احداث خطيره</item>
+    <item> احداث خطيره</item>
+</array>
+
+
 </resources>
