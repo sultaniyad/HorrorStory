@@ -5,13 +5,6 @@
     android:gravity="center_horizontal"
     android:background="#4d9e4de5">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="عنوان القصة"
-        android:id="@+id/title" />
-
     <WebView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"

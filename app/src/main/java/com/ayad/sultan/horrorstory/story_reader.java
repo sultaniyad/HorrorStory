@@ -19,8 +19,8 @@ public class story_reader extends AppCompatActivity {
        pageNumber =  getIntent().getIntExtra("pageNumber",0);
 
         WebView web =(WebView) findViewById(R.id.reader);
-        //  web.getSettings().setBuiltInZoomControls(true);
+         web.getSettings().setBuiltInZoomControls(true);
            //web.getSettings().setDisplayZoomControls(true); //api 11+
-        web.loadUrl("file:///android_asset/"+pageNumber+".html");
+        web.loadUrl("file:///android_asset/story"+pageNumber+".html");
     }
 }

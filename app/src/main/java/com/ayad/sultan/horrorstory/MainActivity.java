@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
     MobileAds.initialize(getApplicationContext(), "ca-app-pub-2100187188382709~6532666677");
     AdView mAdView = (AdView) findViewById(R.id.adView);
     AdRequest adRequest = new AdRequest.Builder().build();
-    mAdView.loadAd(adRequest);
+   // mAdView.loadAd(adRequest);
 
     String arrayStory[] = getResources().getStringArray(R.array.stories);
    ListView list =(ListView) findViewById(R.id.listView);
